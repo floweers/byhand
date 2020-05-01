@@ -1,0 +1,110 @@
+@charset "utf-8";
+.encabezado {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 7px 3.68px 0.32px rgba(0, 0, 0, 0.23);
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.encabezado a {
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    width: 950px;
+    height: 753px;
+    margin-top: auto;
+    margin-left: 0px;
+}
+.encabezado ul li a:hover{
+	transition: all 0.3s linear;
+    background: #7D7D7D;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+	}
+nav div .logo {
+    width: 116px;
+    height: auto;
+    position: absolute;
+	left: 100px;
+	top: -15px;
+ }
+
+ul{
+	float: right;
+	width: 45%;
+	text-align: center;
+	list-style: none
+}
+ul li {
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.carousel-item.active .carousel-caption h5 {
+    text-shadow: 0px 5px 6px #000000;
+}
+
+
+#carouselExampleIndicators1 .carousel-control-next {
+	background-color: lightgrey
+}
+#carouselExampleIndicators1 .carousel-control-prev {
+	background-color: lightgray}
+
+.reserva h3{
+    margin: auto 20%;	
+	font-size: 1.625em;
+	color: #444444;
+	font-weight: bold;
+	text-align: center;
+}
+
+.reserva{
+	margin: auto 20%;
+    border-radius: 6px;
+    padding: 20px 20px;
+    margin-top: 10px;
+}
+
+
+.reserva label{
+    display: block;
+    font-weight: bold;
+}
+.reserva input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+
+.reserva input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.reserva input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+	background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);}
+.footer {
+    padding-top: 60px;
+    top: 1000px;
+    color: #FFFFFF;
+    background-color: #000000;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+    height: 140px;
+}

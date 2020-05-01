@@ -1,0 +1,134 @@
+@charset "utf-8";
+.encabezado {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 7px 3.68px 0.32px rgba(0, 0, 0, 0.23);
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.encabezado a {
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    width: 950px;
+    height: 753px;
+    margin-top: auto;
+    margin-left: 0px;
+}
+.encabezado ul li a:hover{
+	transition: all 0.3s linear;
+    background: #7D7D7D;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+	}
+nav div .logo {
+    width: 116px;
+    height: auto;
+    position: absolute;
+	left: 100px;
+	top: -15px;
+ }
+
+ul{
+	float: right;
+	width: 45%;
+	text-align: center;
+	list-style: none
+}
+ul li {
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.contenido  h1 {
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Helvetica, Arial, 'sans-serif';
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 80px;
+  top: 580px;
+}
+
+.contenido p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    position: absolute;
+    left: 100px;
+    top: 690px;
+    width: 652px;
+    height: 447px;
+    text-align: justify;
+}
+
+.side img{
+	position: absolute;
+    right: 100px;
+    top: 580px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3.68px 0.32px rgba(0, 0, 0, 0.15);
+    width: auto;
+    height: 400px;
+}
+
+#map {
+  position: absolute;
+  right: 100px;
+  top: 1050px;
+}
+#piscina img {
+  position: absolute;
+  left: 100px;
+  top: 1050px;
+  width: 480;
+  height: auto;
+}
+#redes img{
+    position: relative;
+	top: 760px;
+    width: 38px;
+    height: 38px;
+	display:inline-flex;
+}
+.carousel-item.active .carousel-caption h5 {
+    text-shadow: 0px 5px 6px #000000;
+}
+
+
+#carouselExampleIndicators1 .carousel-control-next {
+	background-color: lightgrey
+}
+#carouselExampleIndicators1 .carousel-control-prev {
+	background-color: lightgray
+}
+ #hojas img{
+  position: absolute;
+  left: 720px;
+  top: 1400px;
+  width: 109px;
+  height: 104px;
+}
+#hoja2 img{
+	position: absolute;
+  right: 20px;
+  top: 1400px;
+  width: 164px;
+  height: 179px;
+}
+.footer {
+    padding-top: 60px;
+    top: 1600px;
+    color: #FFFFFF;
+    background-color: #000000;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+    height: 140px;
+}
